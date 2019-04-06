@@ -3,6 +3,7 @@ source $VIMRUNTIME/defaults.vim
 set number
 set numberwidth:1
 set autoindent
+let g:jellybeans_overrides = {'background': {'guibg': '000000'}}
 colorscheme jellybeans
 
 if empty(glob('~/.vim/autoload/plug.vim'))
