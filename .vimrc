@@ -13,6 +13,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'Valloric/YouCompleteMe'
 Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
