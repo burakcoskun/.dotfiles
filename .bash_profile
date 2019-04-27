@@ -7,6 +7,3 @@
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]];then
 	startx
 fi
-
-alias gs='git status'
-alias gp='git pull'

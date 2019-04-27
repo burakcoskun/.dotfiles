@@ -6,3 +6,5 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
+alias gs='git status'
+alias gp='git pull'
