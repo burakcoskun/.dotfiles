@@ -13,6 +13,8 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 	autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+let g:clang_library_path='/usr/lib/llvm-6.0/lib'
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'google/vim-maktaba'
@@ -20,6 +22,7 @@ Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/vim-lsp'
+Plug 'xavierd/clang_complete'
 call plug#end()
 
 augroup autoformat_settings
