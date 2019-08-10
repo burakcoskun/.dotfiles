@@ -12,3 +12,4 @@ alias gs='git status'
 alias gp='git pull'
 
 export EDITOR=vim
+set -o vi
