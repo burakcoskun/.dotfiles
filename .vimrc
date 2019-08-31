@@ -16,7 +16,7 @@ endif
 let g:clang_library_path='/usr/lib/llvm-6.0/lib'
 
 call plug#begin('~/.vim/plugged')
-
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
