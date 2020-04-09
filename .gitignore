@@ -1,2 +1,4 @@
 .vim/plugged
 .vim/autoload/plug.vim
+.config/dconf
+.config/pulse
