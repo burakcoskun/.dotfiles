@@ -13,7 +13,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 	autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-let g:clang_library_path='/usr/lib/llvm-6.0/lib'
+let g:clang_library_path='/usr/lib/llvm-9/lib'
 
 call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
